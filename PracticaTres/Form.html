@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Styles_Form.css">
+</head>
+<body>
+    <section class="contenedor">
+    <form action="" class="Form">
+    <fieldset>
+        <legend>Datos Personales</legend>
+        <div class="Contenedor-Datos">
+        <div class="Nombres-Apellidos">
+         <label for="name">Nombres:</label>
+         <input type="text" name="name" placeholder="Ingrese sus nombres" maxlength="10" minlength="5" required><br><br>
+         <label for="name">Apellidos:</label>
+         <input type="text" name="name" placeholder="Ingrese sus Apellidos" maxlength="10" minlength="5" required><br><br>
+        </div>
+        <div class="email">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="" placeholder="ingrese su email"><br><br></div>
+            <div class="contrasena">
+                <label for="pass">Contraseña:</label>
+                <input type="password" name="pass" id="" placeholder="Ingrese su Contraseña" minlength="5" maxlength="10" required><br><br>
+            </div>
+            <div class="fechaNacimiento">
+                <label for="date">Fecha de Nacimiento:</label>
+                <input type="date" name="date" id=""><br><br>
+            </div>
+            <div class="genero">
+                <label for="">Femenino:</label>
+               <input type="radio" name="femenino" id="mujer" value="F"><br><br>
+               <label for="">Masculino:</label>
+               <input type="radio" name="femenino" id="mujer" value="F"><br><br>
+            </div>
+            <button class="boton">Enviar</button>
+        </div>
+    </fieldset>
+</section>
+</form>
+</body>
+</html>
